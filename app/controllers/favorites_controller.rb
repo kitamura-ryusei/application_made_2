@@ -13,4 +13,5 @@ class FavoritesController < ApplicationController
         favorite.destroy
         redirect_to post_image_path(post_image)
     end
+    
 end
